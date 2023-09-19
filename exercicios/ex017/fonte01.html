@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+             Medidas Absolutas
+             cm, mm, in(polegadas), px, pt, pc
+
+             Medidas Relativas
+             em, ex, rem, vw, vh, %
+             16px geralmente = 1em
+             recomendação é sempre usar ou px ou em
+            */
+            font-size: 1em;
+            /*
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+            */
+            /* lighter normal bold bolder */
+        }
+        h1 {
+
+            /* shorthand font */
+            /* font-style -> font-weight -> font-size -> font-family 
+
+            font-family: Arial, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Arial', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Arial', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita tempore veniam suscipit velit obcaecati enim sit. Adipisci quos provident ut sapiente quaerat reiciendis veritatis ipsum nemo consequuntur sint, optio ducimus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus consequuntur architecto, eius, aspernatur nostrum beatae illo enim sit tempore voluptate modi saepe. Cum commodi laboriosam ipsam id omnis aperiam odio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam esse, quasi eius cumque impedit nemo natus quia distinctio itaque quod corporis! Quasi asperiores officia eveniet sed accusamus placeat molestiae eius!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempora illum aliquam alias minima laborum est, aspernatur reprehenderit, dignissimos porro minus dolor beatae repudiandae laudantium eum? Delectus saepe commodi architecto! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sit soluta provident quas voluptates aut quis, iusto excepturi sapiente. Voluptates ratione eaque, praesentium alias sequi repellendus delectus adipisci perferendis dicta!</p>
+</body>
+</html>
