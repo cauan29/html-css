@@ -12,6 +12,7 @@
     menu > ul > li {
         display: inline-block;
         padding-left: 10px;
+        padding-bottom: 10px;
     }
     menu > ul {
         text-align: center;
